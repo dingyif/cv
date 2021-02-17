@@ -20,3 +20,7 @@ h1 {
 h2 {
   color: #48426d;
 }
+
+.personal_img {
+  border-radius: 100%;
+}
