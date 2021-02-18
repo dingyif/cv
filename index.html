@@ -2,117 +2,71 @@
 <html lang="en" dir="ltr">
 
 <head>
+
   <meta charset="utf-8">
-  <title>Dingyi's Personal Site</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Dingyi Fang</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing='30'>
-    <tr>
-      <td><img class='personal_img' src="images/photo.jpg" alt="Dingyi Profile Picture"></td>
-      <td>
-        <h1> Dingyi Fang </h1>
-        <p> <em>
-            <strong> Associate
-              <br> Department of Statistics
-              <br> Columbia University </strong>
-            <br> <a href="https://www.linkedin.com/in/dingyifang"> <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="Linkedin" style="width:25px;height:25px;"> </a>
-            <a href="https://github.com/dingyif"> <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Github" style="width:25px;height:25px;"> </a>
-          </em>
-        </p>
-        <p>I'm currently working as a research assistant and teaching assistant.</p>
-      </td>
-    </tr>
-  </table>
-  <hr size='3' noshade>
-  <h2> Education </h2>
-  <ul>
-    <li>Columbia University</li>
-    <li>University of California, Irvine</li>
-    <ul>
-      <li>Cum Laude</li>
-      <li>Phi Beta Kappa</li>
-      <li>Pi Mu Epsilon</li>
-    </ul>
-  </ul>
-  <hr size='3' noshade>
-  <h2>Work Experience</h2>
-  <table cellspacing='10'>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-        <th>Company</th>
-      </tr>
-    </thead>
 
-    <tbody>
-      <tr>
-        <td>Jan. 2020 — Present</td>
-        <td>Research Assistant</td>
-        <td>Columbia University</td>
-      </tr>
-      <tr>
-        <td>Oct. 2019 — Dec. 2019</td>
-        <td>Data Science Intern</td>
-        <td>Empirasign Strategies LLC</td>
-      </tr>
-      <tr>
-        <td>May. 2018 — Dec. 2018</td>
-        <td>Data Analyst Intern</td>
-        <td>ÉTÉ International Trading LLC</td>
-      </tr>
-    </tbody>
+  <div class="top-container">
+    <img class='top-cloud' src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Dingyi.</h1>
+    <h2>an aspiring programmer.</h2>
+    <img class='bottom-cloud' src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="moutain-img">
+  </div>
 
-  </table>
-  <hr size='3' noshade>
-  <h2>Teaching</h2>
-  <ul>
-    <li>GR5241 Statistical Machine Learning</li>
-    <li>GR5245 Intro to TensorFlow with Python</li>
-    <li>GR5293 Elem of Data Science (Python)</li>
-  </ul>
-  <hr size='3' noshade>
-  <h2> Skills </h2>
+  <div class="middle-container">
+    <div class="profile">
+      <img class='personal-image' src="images/photo.jpg" alt="Personal Image">
+      <h2>Hello.</h2>
+      <p class='intro'>I'm currently working as a teaching/reseach assistant at Columbia University. </p>
+    </div>
 
-  <table cellspacing='10'>
-    <tr>
-      <td>Python</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>R</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>SQL</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Stan</td>
-      <td>⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Matlab</td>
-      <td>⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Mathematica</td>
-      <td>⭐⭐</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>⭐</td>
-    </tr>
-  </table>
+    <hr size='3'>
 
-  <hr size='3' noshade>
-  <a href="contact_me.html"> Contact me</a>
+    <div class="skills">
+      <h2>My Skills.</h2>
+
+      <div class="skill-row">
+        <img class="pytorch-img" src="https://symbols.getvecta.com/stencil_92/76_pytorch.49f7ea44b8.png" alt="PyTorch-img">
+        <h3>Design & Development</h3>
+        <p>DeepForest is a python package for training and predicting individual tree crowns from airborne RGB imagery. I helped to migrate the <a href="https://github.com/weecology/DeepForest">DeepForest</a> tensorflow version of package to <a
+            href="https://github.com/weecology/DeepForest-pytorch">DeepForest-pytorch</a> version. Implemented new features to the package, such as <a href="https://arxiv.org/pdf/1704.04503.pdf">soft-NMS</a>.</p>
+      </div>
+
+      <div class="skill-row">
+        <img class="shiny-img" src="https://blog.efpsa.org/wp-content/uploads/2019/04/pic1.png" alt="R-Shiny-icon">
+        <h3>Interactive Dashboard</h3>
+        <p>Created several R-Shiny Dashboards for educational, business and research uses, one of them is used by <a href="https://github.com/TZstatsADS/ADS_Teaching">GR5243 Applied Data Science</a> course for 2020-2021 school year. </p>
+      </div>
+    </div>
+
+    <hr size='3'>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love coding like I do.</h3>
+      <p class=contact-msg></p>
+      <a class="btn" href="mailto:imfangdingyi@gmail.com">CONTACT ME</a>
+
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="Linkedin" style="width:15px;height:15px;"> <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Github" style="width:15px;height:15px;"> <a class="footer-link" href="https://www.appbrewery.co/">Github</a>
+    <p>© 2021 Dingyi Fang.</p>
+  </div>
+
+
 </body>
 
 </html>
